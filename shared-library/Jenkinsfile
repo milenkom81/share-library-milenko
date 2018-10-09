@@ -1,0 +1,29 @@
+@Library('share-tmpl') _
+
+  node {
+    
+   
+   
+   stage('Prepare') { 
+      pripremi 'https://github.com/milenkom81/java-maven-junit-helloworld.git'
+   }
+
+
+    stage('Build') {
+       
+    }
+
+
+   stage('Compile'){
+       
+   }
+   stage('Build') {
+      
+   }
+    stage('Test') {
+       
+   }
+   stage('Tomcat Deploy') {
+       
+   }
+}
