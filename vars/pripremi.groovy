@@ -1,3 +1,3 @@
 def call(String url) {
-	git '${url}'
+	git "echo '${url}'"
 }
