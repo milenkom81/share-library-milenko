@@ -5,7 +5,8 @@
    
    
    stage('Prepare') { 
-      pripremi 'https://github.com/milenkom81/java-maven-junit-helloworld.git'
+      pripremi 'https://github.com/milenkom81/share-library-milenko.git'
+      steps { ciSkip action: 'check' }
    }
 
 
